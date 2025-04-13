@@ -1,5 +1,5 @@
 # AutoDSNN
-
+This is a fork of the **DeepShift: Towards Multiplication-Less Neural Networks** repository by Elhoushi et al. (2021). It is the corresponding repository to our publication **Towards leveraging automl for sustainable deep learning: A multi-objective hpo approach on deep shift neural networks** by Hennig et al. (2024) ([Paper]).
 
 #### Original Repository
 This project is the implementation of the **DeepShift: Towards Multiplication-Less Neural Networks**  paper, that aims to replace multiplications in a neural networks with bitwise shift (and sign change).
