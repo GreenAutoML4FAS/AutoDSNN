@@ -3,6 +3,8 @@ This is a fork of the **DeepShift: Towards Multiplication-Less Neural Networks**
 
 Deep Learning (DL) has advanced various fields by extracting complex patterns from large datasets. However, the computational demands of DL models pose environmental and resource challenges. Deep shift neural networks (DSNNs) offer a solution by leveraging shift operations to reduce computational complexity at inference. Following the insights from standard DNNs, we are interested in leveraging the full potential of DSNNs by means of AutoML techniques. We study the impact of hyperparameter optimization (HPO) to maximize DSNN performance while minimizing resource consumption. Since this combines multi-objective (MO) optimization with accuracy and energy consumption as potentially complementary objectives, we propose to combine state-of-the-art multi-fidelity (MF) HPO with multi-objective optimization. Experimental results demonstrate the effectiveness of our approach, resulting in models with over 80\% in accuracy and low computational cost. Overall, our method accelerates efficient model development while enabling sustainable AI applications.
 
+We included a script for optimizing the exisiting DSNN models with our multi-objective multi-fidelity approach using SMAC3.
+
 #### Original Repository
 This project is the implementation of the **DeepShift: Towards Multiplication-Less Neural Networks**  paper, that aims to replace multiplications in a neural networks with bitwise shift (and sign change).
 
